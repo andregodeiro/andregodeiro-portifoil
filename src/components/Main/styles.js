@@ -7,6 +7,11 @@ export const ContainerMain = styled.div`
   margin-top: 100px;
 `;
 
+export const ContainerIntroduction = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const ContainerTitle = styled.div``;
 
 export const ContainerImage = styled.div``;
