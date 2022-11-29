@@ -23,7 +23,7 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h3`
-  color: black;
+  color: #6c7e88;
   font-size: 26px;
   line-height: 24px;
 `;
