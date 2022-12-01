@@ -6,6 +6,7 @@ import {
   Logo,
   LogoContainer,
   NavbarContainer,
+  ResumeAnchor,
 } from "./styles";
 
 export const Navbar = () => {
@@ -17,7 +18,15 @@ export const Navbar = () => {
       </LogoContainer>
       <LinksList>
         <Link>Quem sou eu</Link>
-        <Link>Currículo</Link>
+        <Link>
+          {" "}
+          <ResumeAnchor
+            href="https://drive.google.com/file/d/1JblhUa3n7TczfCGnjG-qr4KE6cu0Lhnj/view?usp=share_link"
+            target="_blank"
+          >
+            Currículo
+          </ResumeAnchor>
+        </Link>
         <Link>Projetos</Link>
       </LinksList>
     </NavbarContainer>

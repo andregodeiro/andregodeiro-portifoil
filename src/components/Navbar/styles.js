@@ -16,6 +16,7 @@ export const LogoContainer = styled.div`
 `;
 
 export const Logo = styled.span`
+  font-family: "Exo 2", sans-serif;
   font-size: 28px;
   font-weight: 400;
   color: #08366e;
@@ -38,6 +39,17 @@ export const Link = styled.li`
 
   :hover {
     background-color: #08366e;
+    color: white;
+    transition: 350ms;
+  }
+`;
+
+export const ResumeAnchor = styled.a`
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+
+  :hover {
     color: white;
     transition: 350ms;
   }
