@@ -4,13 +4,13 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 25%;
+  align-items: center;
   margin-top: 200px;
 `;
 
 export const TitleContainer = styled.div`
   display: flex;
-  justify-content: start;
+  justify-content: end;
 `;
 
 export const Title = styled.h3`

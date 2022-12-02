@@ -4,6 +4,8 @@ export const ProjContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
+  margin-top: 42px;
 `;
 
 export const ProjTitle = styled.h5`
@@ -18,11 +20,16 @@ export const ProjDescription = styled.span`
   text-align: justify;
 `;
 
+export const ProjCarousel = styled.div`
+  max-width: 1000px;
+
+  img {
+    width: 1000px;
+    height: 500px;
+  }
+`;
+
 export const ProjImageContainer = styled.div`
   display: flex;
   justify-content: center;
-`;
-
-export const ProjImage = styled.img`
-  width: 1024px;
 `;
