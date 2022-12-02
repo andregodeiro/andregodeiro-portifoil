@@ -6,19 +6,22 @@ import {
   TitleContainer,
 } from "../Introduction/styles";
 import { Project } from "../ProjectCard/Project";
+import { HeadContainer } from "./styles";
 
 export const Projects = () => {
   return (
     <div>
       <Container>
-        <TitleContainer>
-          <Title>Projetos</Title>
-        </TitleContainer>
-        <Description>
-          Aqui estão alguns projetos desenvolvidos por mim. Para ter uma visão
-          mais completa de cada trabalho você pode dar uma passadinha no meu
-          repositório do GitHub.
-        </Description>
+        <HeadContainer>
+          <TitleContainer>
+            <Title>Projetos</Title>
+          </TitleContainer>
+          <Description>
+            Aqui estão alguns projetos desenvolvidos por mim. Para ter uma visão
+            mais completa de cada trabalho você pode dar uma passadinha no meu
+            repositório do GitHub.
+          </Description>
+        </HeadContainer>
         <Project
           title={"connectLab"}
           description={

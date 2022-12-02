@@ -9,8 +9,11 @@ export const ProjContainer = styled.div`
 `;
 
 export const ProjTitle = styled.h5`
-  color: white;
+  color: #2d2d2d;
   font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
 `;
 
 export const ProjDescription = styled.span`
@@ -26,6 +29,7 @@ export const ProjCarousel = styled.div`
   img {
     width: 1000px;
     height: 500px;
+    border-radius: 12px;
   }
 `;
 
