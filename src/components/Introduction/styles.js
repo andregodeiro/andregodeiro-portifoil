@@ -16,8 +16,6 @@ export const TitleContainer = styled.div`
 export const Title = styled.h3`
   color: white;
   font-size: 36px;
-  display: flex;
-  justify-content: start;
 `;
 
 export const Description = styled.span`
